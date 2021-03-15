@@ -12,7 +12,7 @@ body
 	}
 
 
-#player1_name , #player2_name
+#player1id , #player2id
 {
 	display: inline-block;
 	margin-left: 20px;
@@ -33,4 +33,17 @@ border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
 text-align: left;
+}
+#player1score , #player2score{
+font-size:18px;
+}
+#questionturn , #answerturn{
+font-size: 20px;
+}
+h4{
+display: inline-block;
+}
+#startbutton{
+width:80px;
+height:40px;
 }
